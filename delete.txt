@@ -1,0 +1,67 @@
+{
+  "status": 200,
+  "access_token": {
+    "oauth_token_secret": "v85d6tc15g6v5oh",
+    "oauth_token": "jhn7a0bdiz795el8",
+    "uid": "270710894"
+  }
+}
+
+{
+  "status": 200,
+  "access_token": {
+    "oauth_token_secret": "g2nwda1vpervwbd",
+    "oauth_token": "oih89abtuq2yybfn",
+    "uid": "270710894"
+  }
+}
+
+
+
+db.dropboxentries.findOne({$and: [{ "path": "/four/hot_asian_220214_006.jpg"}, { "uid": 270710894}]})
+
+
+
+        {
+          "has_more": false,
+          "cursor": "AAHmmLhWV0LhWya_OEKmZhPObxosWt4AHtk66EJiIm2_qoXPuwvyhWyuoH5Ybb_JVE9111PL06D_Td6v5bReJ3jpW_orbjBcYo4111LxRHqR3VKVxdQifemCZ7a-4njLA21TQbrIz5kaYe0vOczv668evAe",
+          "entries": [
+            [
+              "/four/220214_002.jpg",
+              {
+                "revision": 34,
+                "rev": "222005885b",
+                "thumb_exists": true,
+                "bytes": 105219,
+                "modified": "Sun, 23 Feb 2014 14:43:43 +0000",
+                "client_mtime": "Sun, 23 Feb 2014 14:43:42 +0000",
+                "path": "/four/220214_002.jpg",
+                "is_dir": false,
+                "icon": "page_white_picture",
+                "root": "dropbox",
+                "mime_type": "image/jpeg",
+                "size": "102.8 KB"
+              }
+            ],
+            [
+              "/four/250214_002.jpg",
+              {
+                "revision": 65,
+                "rev": "412005885b",
+                "thumb_exists": true,
+                "bytes": 96909,
+                "modified": "Thu, 27 Feb 2014 00:45:28 +0000",
+                "client_mtime": "Thu, 27 Feb 2014 00:45:23 +0000",
+                "path": "/four/250214_002.jpg",
+                "is_dir": false,
+                "icon": "page_white_picture",
+                "root": "dropbox",
+                "mime_type": "image/jpeg",
+                "size": "94.6 KB"
+              }
+            ],
+            ...........
+
+          ],
+          "reset": true
+        }
